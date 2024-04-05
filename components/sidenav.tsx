@@ -19,7 +19,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 export default function SideNav() {
     return (
-        <div className="relative top-12 sm:hidden">
+        <div className="relative top-12">
             <div className="sideNav text-white w-1/6 bg-black">
                 {/* <div className="flex flex-row items-center gap-2 ml-5 cursor-pointer">
                     <Link href={""}><GiHamburgerMenu className="text-white text-2xl" /></Link>
