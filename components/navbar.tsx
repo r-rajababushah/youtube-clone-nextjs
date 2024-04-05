@@ -12,7 +12,7 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 export default function NavBar() {
     return (
         <div>
-            <nav className="upperNav flex flex-row justify-between items-center bg-black h-12">
+            <nav className="upperNav flex flex-row justify-between items-center bg-black w-full h-12 fixed">
                 <div className="firstSec flex flex-row justify-center items-center gap-2 ml-5 cursor-pointer">
                     <Link href={""}><GiHamburgerMenu className="text-white text-2xl" /></Link>
                     <Link href={""}><ImYoutube2 className="text-pink-500 text-7xl h-7" /></Link>
