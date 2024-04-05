@@ -19,9 +19,17 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<NavBar />
-				<SideNav />
-				{children}
+				<div className="topNavSec">
+					<NavBar />
+				</div>
+				<div className="bodySec flex h-screen">
+					<div className="sideNavSec h-full overflow-auto pt-12">
+						<SideNav />
+					</div>
+					<div className="contentSec bg-blue-500 flex-grow p-4 pt-12">
+						{children}
+					</div>
+				</div>
 			</body>
 		</html>
 	);
