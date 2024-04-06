@@ -23,42 +23,42 @@ export default function SideNav() {
     return (
         <div className="sideNav text-white bg-black">
             <div className="flex flex-col gap-1 cursor-pointer ml-1 mr-3">
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><RiHome4Fill className="text-white size-6 w-6 mx-4" />Home</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><SiYoutubeshorts className="text-white size-5 w-6 mx-4" />Shorts</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><MdSubscriptions className="text-white size-5 w-6 mx-4" />Subscriptions</span>
-                <span className="w-56 flex items-center mx-1 py-2 justify-center cursor-default"><hr className="w-11/12 text-white" /></span>
+                <span className="sideNavNItems"><RiHome4Fill className="sideNavIcos" />Home</span>
+                <span className="sideNavNItems"><SiYoutubeshorts className="sideNavIcos" />Shorts</span>
+                <span className="sideNavNItems"><MdSubscriptions className="sideNavIcos" />Subscriptions</span>
+                <span className="sideNavHr"><hr className="w-full text-white" /></span>
             </div>
             <div className="flex flex-col gap-1 cursor-pointer ml-1 mr-3">
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><LuUserSquare className="text-white size-5 w-6 mx-4" />Your Channel</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><RiHistoryLine className="text-white size-5 w-6 mx-4" />History</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><MdPlaylistPlay className="text-white size-6 w-6 mx-4" />Playlist</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><RiVideoLine className="text-white size-5 w-6 mx-4" />Your Videos</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><MdWatchLater className="text-white size-5 w-6 mx-4" />Watch Later</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><AiFillLike className="text-white size-5 w-6 mx-4" />Liked Videos</span>
+                <span className="sideNavNItems"><LuUserSquare className="sideNavIcos" />Your Channel</span>
+                <span className="sideNavNItems"><RiHistoryLine className="sideNavIcos" />History</span>
+                <span className="sideNavNItems"><MdPlaylistPlay className="sideNavIcos" />Playlist</span>
+                <span className="sideNavNItems"><RiVideoLine className="sideNavIcos" />Your Videos</span>
+                <span className="sideNavNItems"><MdWatchLater className="sideNavIcos" />Watch Later</span>
+                <span className="sideNavNItems"><AiFillLike className="sideNavIcos" />Liked Videos</span>
                 <span className="w-56 flex items-center mx-1 py-2 justify-center cursor-default"><hr className="w-full text-white" /></span>
             </div>
             <div className="flex flex-col gap-1 cursor-pointer ml-1 mr-3">
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><p className="text-white self-center mx-4 w-5">Subscriptions</p></span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><Image src={tvf} alt="TVF" className="size-6 rounded-xl mx-4" /><p>The Viral Fever</p></span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><Image src={angryprash} alt="AP" className="size-6 rounded-xl mx-4" /><p>Angry Prash</p></span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><Image src={dhruvrathee} alt="DR" className="size-6 rounded-xl mx-4" /><p>Dhruv Rathee</p></span>
+                <span className="sideNavNItems"><p className="text-white self-center mx-4 w-5">Subscriptions</p></span>
+                <span className="sideNavNItems"><Image src={tvf} alt="TVF" className="size-6 rounded-xl mx-4" /><p>The Viral Fever</p></span>
+                <span className="sideNavNItems"><Image src={angryprash} alt="AP" className="size-6 rounded-xl mx-4" /><p>Angry Prash</p></span>
+                <span className="sideNavNItems"><Image src={dhruvrathee} alt="DR" className="size-6 rounded-xl mx-4" /><p>Dhruv Rathee</p></span>
                 <span className="w56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><IoIosArrowDown className="text-white size-5 w-6 mx-4" /><p className="text-sm">Show 106 more</p></span>
                 <span className="w-56 flex items-center mx-1 py-2 justify-center cursor-default"><hr className="w-full text-white" /></span>
             </div>
             <div className="flex flex-col gap-1 cursor-pointer ml-1 mr-3">
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><IoSettingsOutline className="text-white size-5 w-6 mx-4" />Settings</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><MdOutlinedFlag className="text-white size-5 w-6 mx-4" />Report History</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><FaQuestion className="text-white size-5 w-6 mx-4" />Help</span>
-                <span className="w-56 flex items-center mx-1 py-2 rounded-xl hover:bg-gray-900"><MdFeedback className="text-white size-5 w-6 mx-4" />Send Feedback</span>
+                <span className="sideNavNItems"><IoSettingsOutline className="sideNavIcos" />Settings</span>
+                <span className="sideNavNItems"><MdOutlinedFlag className="sideNavIcos" />Report History</span>
+                <span className="sideNavNItems"><FaQuestion className="sideNavIcos" />Help</span>
+                <span className="sideNavNItems"><MdFeedback className="sideNavIcos" />Send Feedback</span>
                 <span className="w-56 flex items-center mx-1 py-2 justify-center cursor-default"><hr className="w-full text-white" /></span>
             </div>
             <div className="flex flex-col gap-1 cursor-pointer ml-1 mr-3 w-56">
                 <div className="linksSec flex flex-wrap gap-1 mx-1">
-                    <span className="text-xs px-3 py-1 rounded-xl hover:bg-gray-900"><Link href={""}>About</Link></span>
-                    <span className="text-xs px-3 py-1 rounded-xl hover:bg-gray-900"><Link href={""}>Press</Link></span>
-                    <span className="text-xs px-3 py-1 rounded-xl hover:bg-gray-900"><Link href={""}>Copyright</Link></span>
-                    <span className="text-xs px-3 py-1 rounded-xl hover:bg-gray-900"><Link href={""}>Contacts Us</Link></span>
-                    <span className="text-xs px-3 py-1 rounded-xl hover:bg-gray-900"><Link href={""}>Developers</Link></span>
+                    <span className="sideNavEtx"><Link href={""}>About</Link></span>
+                    <span className="sideNavEtx"><Link href={""}>Press</Link></span>
+                    <span className="sideNavEtx"><Link href={""}>Copyright</Link></span>
+                    <span className="sideNavEtx"><Link href={""}>Contacts Us</Link></span>
+                    <span className="sideNavEtx"><Link href={""}>Developers</Link></span>
                 </div>
                 <span className="w-56 flex items-center mx-1 py-2 justify-center cursor-default"><hr className="w-full text-white" /></span>
             </div>

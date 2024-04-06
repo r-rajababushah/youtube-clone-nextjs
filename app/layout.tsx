@@ -23,10 +23,10 @@ export default function RootLayout({
 					<NavBar />
 				</div>
 				<div className="bodySec flex h-screen">
-					<div className="sideNavSec h-full overflow-auto pt-12">
+					<div className="sideNavSec basis-1/6 h-full overflow-auto overflow-x-hidden pt-14">
 						<SideNav />
 					</div>
-					<div className="contentSec bg-blue-500 flex-grow p-4 pt-12">
+					<div className="contentSec basis-10/12 bg-blue-500 mt-12 mx-0 overflow-auto">
 						{children}
 					</div>
 				</div>
